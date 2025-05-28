@@ -1,6 +1,9 @@
 import streamlit as st
 from llm_extractor import extract_financial_data
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a6fbcffea328e905dd49f5ace2bcdeeffa3f4ca
 
 st.set_page_config(page_title="📊 Financial Data Extractor", layout="centered")
 st.title("💼 Financial Data Extractor from News")
