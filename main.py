@@ -1,5 +1,6 @@
 import streamlit as st
-from llama import extract_financial_data
+from llm_extractor import extract_financial_data
+
 
 st.set_page_config(page_title="📊 Financial Data Extractor", layout="centered")
 st.title("💼 Financial Data Extractor from News")
