@@ -6,7 +6,7 @@ import streamlit as st
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
-client = OpenAI()
+# client = OpenAI()
 
 def extract_financial_data(text):
     prompt = '''
